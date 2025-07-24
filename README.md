@@ -27,5 +27,26 @@ VoicY is a simple yet powerful feedback/testimonial web application built using 
 
 ---
 
-## 📂 Folder Structure
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Akj-Emp/Feedback.git
+cd Feedback
+
+Install Dependecy
+npm install
+
+Create a .env file
+MONGO_URI=your_mongodb_connection_string
+SESSION_SECRET=your_secret_key
+
+Run the Application
+node app.js
+
+
 
